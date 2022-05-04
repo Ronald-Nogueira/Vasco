@@ -52,25 +52,24 @@ body{
 
 .navigation{
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
 }
 
-.navigation p{
-    border: 2px solid white;
-    border-radius: 15px;
-    margin: 0 10px;
-    transition: .5s ease
-}
 .navigation a{
-    font-weight: ;
-    margin: 0 30px;
-    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid white;
     color: white;
- 
+    text-decoration: none;
+    border-radius: 25px;
+
 }
-.navigation p:hover{
-    background: white;
+.navigation a:hover{
+    background-color: white;
+    color: black;
+    transition: .5s ease;
 }

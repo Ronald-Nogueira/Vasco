@@ -13,7 +13,7 @@ body{
         background: #111;
 }
 .texto{
-    width: 100%; 
+    width: 700px; 
     height: 700px;
     margin: auto;
     text-align: center;
@@ -42,4 +42,9 @@ body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
     text-align: center;
+}
+@media (max-width: 750px){
+    .texto{
+        width: 400px;
+    }
 }

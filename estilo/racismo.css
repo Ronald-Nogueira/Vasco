@@ -1,14 +1,192 @@
 *{
+    box-sizing: border-box;
     margin: 0;
-
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: #111;
+    overflow-x: hidden;
+
+}
+
+
+.head{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgba(13, 13, 13, 0.805);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.375);
+    z-index: 1000;
+
+    
+}
+
+.head img{
+    width: 90px;
+    text-align: center;
+
+
+}
+
+.imagem img{
+    width: 100%;
+
+}
+
+.slogan{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+
+    
+}
+.slogan h2{
+    font-weight: 800;
+    
+
+}
+.slogan p{
+    letter-spacing: 15px;
+    font-weight: 300;
+}
+
+.nav{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+}
+
+.nav a{
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+
+    
+
+}
+.navigation a:hover{
+    background-color: white;
+    color: black;
+    transition: .5s ease;
+}
+
+
+
+.redes i{
+    color:white ;
+}
+
+
+#menu{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15vh;
+    width: 30vw;
+    height: 0;
+    background-color: rgba(13, 13, 13, 0.805);
+    transition: .5s ease;
+    visibility: hidden;
+    text-align: center;
+    list-style: none;
+    overflow-y: hidden;
+    border-radius: 0 0 20px 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+
+}
+
+#nav.active #menu{
+    width: 40vw;
+    height: 50vh;
+    visibility: visible;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
+#menu a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+#menu a:hover{
+    color:rgb(201, 0, 0) ;
+    font-weight: 400;
+;
+}
+#btn-mobile{
+    border: none;
+    background: none;
+    display: flex;
+    cursor: pointer;
+    margin: 0 40px;
+
+    
+
+}
+#hamburguer{
+    border-top: 3px solid;
+    width: 30px;
+}
+#hamburguer::after, #hamburguer::before{
+    content:'';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+#nav.active #hamburguer{
+    border-top: transparent;
+}
+#nav.active #hamburguer::before{
+    transform: rotate(135deg);
+    background-color: rgb(201, 0, 0);
+
+}
+#nav.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -7px;
+    background-color: rgb(201, 0, 0);
+
+}
+
 .container { 
     width: 100%; 
 
 align-items: center;
-   
 }
+
+
+
 body{
         background: #111;
 }

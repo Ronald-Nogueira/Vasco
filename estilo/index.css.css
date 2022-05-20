@@ -205,20 +205,66 @@ section{
 }
 
 footer{
-    padding-top: 100px;
-    background-color: rgb(38, 38, 38);
+    width: 100vw;
+    padding-top: 40px;
+    background-color: black;
+    
 }
-.footer{
-
-}
-.logo{
-    width: 100%;
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
-.logo img{
-    width: 200px;
+.footer-content h3{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 20px;
+    opacity: .3;
 }
-.rodape{
+.footer-content p{
+    max-width: 500px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    opacity: .3;
+}
+.socials{
+    list-style: none;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 20px;
+}
+.socials li{
+    margin: 0 10px;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    
+}
+.socials i{
+    color: rgb(201, 0, 0);
+}
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    opacity: .3;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    opacity: .4;
+    text-transform: uppercase;
 }

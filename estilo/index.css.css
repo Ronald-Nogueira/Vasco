@@ -37,14 +37,59 @@ body{
 
 }
 
-.imagem img{
-    width: 100%;
 
-}
-.imagem{
+/*.imagem{
     background: url("../imagens/camisa1.jpg") no-repeat center center;
     background-size: cover;
     height: 75vh;
+}*/
+
+.header{
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75vh;
+    animation: animate 30s ease infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url("../imagens/camisa1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    20%{
+        background-image: url("../imagens/time1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    40%{
+        background-image: url("../imagens/vasco2.jpg") ;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+    60%{
+        background-image: url("../imagens/torcedores.jpg") ;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    80%{
+        background-image: url("../imagens/torcedores2.jpg") ;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    100%{
+        background-image: url("../imagens/branco.png") ;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
 }
 
 .slogan{
@@ -208,6 +253,7 @@ footer{
     width: 100vw;
     padding-top: 40px;
     background-color: black;
+    bottom: 0;
     
 }
 .footer-content{
@@ -221,14 +267,14 @@ footer{
     text-transform: uppercase;
     letter-spacing: 10px;
     padding-bottom: 20px;
-    opacity: .3;
+    opacity: .4;
 }
 .footer-content p{
     max-width: 500px;
     letter-spacing: 3px;
     font-weight: 100;
     padding-bottom: 20px;
-    opacity: .3;
+    opacity: .4;
 }
 .socials{
     list-style: none;
@@ -249,14 +295,14 @@ footer{
     
 }
 .socials i{
-    color: rgb(201, 0, 0);
+    color: #fff;
 }
 .footer-bottom{
     background: black;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
-    opacity: .3;
+    opacity: .4;
 
 }
 .footer-bottom p{
@@ -267,4 +313,26 @@ footer{
 .footer-bottom span{
     opacity: .4;
     text-transform: uppercase;
+}
+.footer-btn{
+    padding-bottom: 20px;
+}
+.footer-btn a{
+
+    border: 2px #fff solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    opacity: .4;
+
+}
+.footer-btn a{
+    text-decoration: none;
+}
+.footer-btn a:hover{
+    background: #fff;
+    color: black;
+    transition: .3s ease-in-out;
+    font-weight: 400;
 }

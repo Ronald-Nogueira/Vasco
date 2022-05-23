@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia do Vasco</title>
-    <link rel="stylesheet" href="estilo/index.css.css">
+    <link rel="stylesheet" href="estilo/index.css">
     <script src="https://kit.fontawesome.com/43bd25d9a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+      
+      
 </head>
 <body>
 
@@ -79,6 +83,105 @@
         <h1>novidades</h1>
     </div>
 
+    <section>
+
+            
+                
+                
+                
+                
+        </div>
+
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="card1">
+                    <div class="card-image1"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="card2">
+                    <div class="card-image2"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="card3">
+                    <div class="card-image3"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="card4">
+                    <div class="card-image4"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                <div class="card5">
+                    <div class="card-image4"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                <div class="card6">
+                    <div class="card-image4"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                <div class="card7">
+                    <div class="card-image4"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                <div class="card8">
+                    <div class="card-image4"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+
+                  
+              </div>
+              <div class="swiper-slide">
+                <div class="card9">
+                    <div class="card-image4"></div>
+                    <h2>camisas</h2>
+                    <p>racismo </p>
+                    <div class="button"><a href="">saiba mais</a></div>
+                </div>
+
+              </div>
+            </div>
+
+            
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+    </section>
+
 
 
     
@@ -109,5 +212,29 @@
 
 
     <script src="script.js"></script>
+
+    
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 </html>

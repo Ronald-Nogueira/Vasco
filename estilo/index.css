@@ -38,11 +38,6 @@ body{
 }
 
 
-/*.imagem{
-    background: url("../imagens/camisa1.jpg") no-repeat center center;
-    background-size: cover;
-    height: 75vh;
-}*/
 
 .header{
     overflow: hidden;
@@ -79,13 +74,18 @@ body{
         background-repeat: no-repeat;
         background-position: center center;
     }
-    80%{
+    75%{
         background-image: url("../imagens/torcedores2.jpg") ;
         background-repeat: no-repeat;
         background-position: center center;
     }
-    100%{
+    90%{
         background-image: url("../imagens/branco.png") ;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    100%{
+        background-image: url("../imagens/camisa1.jpg");
         background-repeat: no-repeat;
         background-position: center center;
 
@@ -335,4 +335,118 @@ footer{
     color: black;
     transition: .3s ease-in-out;
     font-weight: 400;
+}
+
+
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8,.card9 {
+    height: 450px;
+    width: 300px;
+    background: rgb(34, 34, 34);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    
+}
+.card-image1{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image2{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image3{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image4{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image5{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image6{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image7{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image8{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.card-image9{
+    background-image: url("../imagens/camisa\ vg\ all\ black\ 2.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    height: 250px;
+}
+.button{
+margin-top: 80px;
+
+}
+
+.button a{
+    text-decoration: none;
+    border: 2px solid rgb(201, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(201, 0, 0);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.button a:hover{
+    background: rgb(201, 0, 0);
+    color: rgb(34, 34, 34);
+    transition: .2s ease-in-out;
+}
+
+section{
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.swiper{
+    width: 1000px;
+}
+
+
+
+section .swiper-button-next,section .swiper-button-prev{
+    color: rgb(201, 0, 0);
+}
+section .swiper-pagination-bullet{
+    background-color: rgb(201, 0, 0);
+    height: 10px;
+    width: 26px;
+    border-radius: 20px;
 }
